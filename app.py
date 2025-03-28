@@ -102,7 +102,7 @@ if file:
                 # Calculate SCADA result deviation
                 if sum_valueA != 0:
                     custom_calculation = (sum_value1 + sum_value2) / sum_valueA
-                    st.write(f'**SCADA Result Deviation**: {custom_calculation:.2f}')
+                    st.write(f'**SCADA Result Deviation**: {custom_calculation:.2f}%')
                 else:
                     st.write('**SCADA Result Deviation**: N/A')
                 
